@@ -1,0 +1,30 @@
+.branch{
+  padding: 10px 200px;
+  position: relative;
+  top:-50px;
+  .branch__title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .branch__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    .branch__item{
+      width: 30%;
+      margin-bottom: 20px;
+      .branch__item--index{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .branch__item--name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

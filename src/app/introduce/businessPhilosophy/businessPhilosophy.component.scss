@@ -1,0 +1,25 @@
+.bussiness{
+  padding: 15px 200px;
+  position: relative;
+   top: -100px;
+  .bussiness__infor{
+    display: flex;
+    .bussiness__infor--title{
+      font-size: 45px;
+      font-weight: bold;
+      width: 20%;
+    }
+    .bussiness__description{
+      width: 80%;
+      line-height:32px ;
+      font-size: 20px;
+    }
+  }
+  .bussiness__image{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}

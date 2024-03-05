@@ -1,0 +1,18 @@
+
+  .banner{
+    height: 550px;
+    width:100%;
+    background: url(../../assets/image/ve-chung-toi.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    label{
+      position: absolute;
+      bottom: 0;
+      font-size: 50px;
+      font-weight: bold;
+      color: white;
+      padding: 30px 200px;
+
+    }
+  }
