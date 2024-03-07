@@ -32,10 +32,10 @@
 .footer__icon--hover {
   display: none;
 }
-.footer__icon--noHover:hover{
+.footer__icon:hover .footer__icon--noHover{
  display: none;
 }
-.footer__icon--noHover:hover .footer__icon--hover{
+.footer__icon:hover .footer__icon--hover{
   display: block;
  }
 .footer__copyrignt{

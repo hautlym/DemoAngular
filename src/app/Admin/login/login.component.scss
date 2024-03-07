@@ -1,0 +1,25 @@
+.login{
+  background-color: #ccc;
+  height: 100vh;
+  background: url("../../../assets/image/trang-chu.png") no-repeat center;
+  background-size: cover;
+  padding-top: 300px;
+  .login__form{
+    width: 500px;
+    margin:  auto ;
+    background-color: #fff;
+    text-align: center;
+    .form-group{
+      width: 100%;
+      .form-label{
+
+      }
+      .form-control{
+
+      }
+      .form-button{
+
+      }
+    }
+  }
+}

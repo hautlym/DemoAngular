@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 450px;
+  width: 500px;
   font-size: 20px;
 }
 .nav-link{
@@ -39,6 +39,8 @@
 .header-nav__item{
   position: relative;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 .header-nav__item i{
   transition: rotate 0.3s ease-in-out;

@@ -1,6 +1,53 @@
-<ul>
-  <li *ngFor="let article of articles |async" style="border: 1px solid red ; margin-bottom: 10px;">
-   <p>{{ article.title}} </p>
-   <a >Read More</a>
-  </li>
-</ul>
+<div class="home">
+  <div class="home__banner">
+    <div class="home__banner-content">
+      <div class="home__banner-label">Tốc độ thảm bay <br/>
+        Giao hàng tận tay</div>
+      <button class="home__banner-contact">Liên hệ ngay</button>
+    </div>
+  </div>
+  <div class="home-sologan">
+    Trở thành đối tác vận chuyển uy tín, đặt niềm tin và sự hài lòng của khách hàng lên hàng đầu
+  </div>
+  <div class="home-introduce">
+      <h1 class="home-introduce__title">
+        Về JVL Việt Nam
+      </h1>
+      <div class="home-introduce__description">
+        Là đại điện của một trong những công ty về logistics hàng đầu Nhật Bản tại Việt Nam, JVL Việt Nam tự hào mang đến <br/>
+         những dịch vụ về vận chuyển tại Nhật Bản và Việt Nam với chất lượng tốt nhất, nhanh nhất, đáng tin cậy nhất hiện <br/>
+          nay tới tay quý khách hàng.
+      </div>
+  </div>
+  <div class="home-service">
+      <h1 class="home-service__title">
+        Dịch vụ
+      </h1>
+      <div class="home-service_description">
+        JVL Việt Nam cung cấp đầy đủ các dịch vụ vận chuyển tùy theo nhu cầu của khách hàng.
+      </div>
+        <ul class="home__service-list">
+          <a href="">
+            <li class="home__service--item"><img src="../../assets/image/booking.png" alt="" class="service__item--img"> <div>Booking tải</div></li>
+          </a>
+          <a href="">
+            <li class="home__service--item"><img src="../../assets/image/thong-quan.png" alt="" class="service__item--img"><div>Thông quan</div></li>
+          </a>
+          <a href="">
+            <li class="home__service--item"><img src="../../assets/image/chuyen-phat.png" alt="" class="service__item--img"><div>Chuyển phát</div></li>
+          </a>
+          <a href="">
+            <li class="home__service--item"><img src="../../assets/image/chung-tu.png" alt="" class="service__item--img"><div>Chứng từ</div></li>
+          </a>
+          <a href="">
+            <li class="home__service--item"><img src="../../assets/image/kho-bai.png" alt="" class="service__item--img"><div>Kho bãi</div></li>
+          </a>
+        </ul>
+  </div>
+  <div class="home-contact">
+    <div class="home__contact--description">
+      Quý khách hàng có nhu cầu hay thắc mắc bất kì vấn đề nào liên quan đến dịch vụ của JVL Việt Nam, hãy liên hệ <br/> ngay với chúng tôi để được giải đáp.
+    </div>
+      <button class="home-content_contact">Liên hệ ngay</button>
+  </div>
+</div>
