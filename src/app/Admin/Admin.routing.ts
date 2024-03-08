@@ -14,10 +14,10 @@ const routes: Routes = [
       { path: 'home', component: AdminHomeComponent },
       { path: 'career', component: CareerComponent },
       { path: 'contact', component: ContactComponent },
-      { path: '', component: AdminHomeComponent },
+      // { path: '', component: LoginComponent },
     ],
   },
-  { path: 'login', component: LoginComponent },
+   { path: 'login', component: LoginComponent },
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

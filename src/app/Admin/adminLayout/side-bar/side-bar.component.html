@@ -10,19 +10,24 @@
         </div>
       </a>
       <a
-        routerLink="/"
+        routerLink="/admin"
         class="list-group-item list-group-item-action py-2 ripple"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
         aria-current="true"
       >
         <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Trang chủ</span>
       </a>
       <a
+
         routerLink="/admin/career"
-        class="list-group-item list-group-item-action py-2 ripple active"
+        class="list-group-item list-group-item-action py-2 ripple"routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
       >
         <i class="fas fa-chart-area fa-fw me-3"></i><span>Tuyển dụng</span>
       </a>
-      <a routerLink="/admin/contact" class="list-group-item list-group-item-action py-2 ripple"
+      <a routerLink="/admin/contact" class="list-group-item list-group-item-action py-2 ripple" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
         ><i class="fas fa-lock fa-fw me-3"></i><span>Liên hệ</span></a
       >
     </div>
